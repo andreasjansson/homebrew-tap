@@ -1,33 +1,34 @@
 class Leta < Formula
   desc "LSP Enabled Tools for Agents - fast semantic code navigation"
   homepage "https://github.com/andreasjansson/leta"
-  version "0.8.0"
+  version "0.10.0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/andreasjansson/leta/releases/download/v0.8.0/leta-v0.8.0-x86_64-apple-darwin.tar.gz"
-      sha256 "c55a2e01e6cbf6f97d9562765cec4ef9c1df8684b2024dd8a0c06ca892373841"
+      url "https://github.com/andreasjansson/leta/releases/download/v0.10.0/leta-v0.10.0-x86_64-apple-darwin.tar.gz"
+      sha256 "da737c0ac57ddeb14d3c7f435cc22c4327f5cabbc3c4795b8ca81f4927e7cfae"
     end
     on_arm do
-      url "https://github.com/andreasjansson/leta/releases/download/v0.8.0/leta-v0.8.0-aarch64-apple-darwin.tar.gz"
-      sha256 "9ea1fe072c0343d3c8bde2c4e41c0c33f62af405e304d0e72e6351621d1a039d"
+      url "https://github.com/andreasjansson/leta/releases/download/v0.10.0/leta-v0.10.0-aarch64-apple-darwin.tar.gz"
+      sha256 "95c049df05c8febce4e426e83f09c1147eb1c41e1ec6dca434a943c2b7af8bb8"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/andreasjansson/leta/releases/download/v0.8.0/leta-v0.8.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "5e1f7dd142d46ff7b2d1001fedd18c199780de5ee03c445771f83432b5d37ca0"
+      url "https://github.com/andreasjansson/leta/releases/download/v0.10.0/leta-v0.10.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "74575381dd264b8d07f7309ddff40591b8d65187d0e0fd8c62bb37c819334753"
     end
     on_arm do
-      url "https://github.com/andreasjansson/leta/releases/download/v0.8.0/leta-v0.8.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "397a85302f706c63c8f51450efa8ec54d994817ce76a69c0f7f4f9fe2cabfe9c"
+      url "https://github.com/andreasjansson/leta/releases/download/v0.10.0/leta-v0.10.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "43f10188233928edfd43e55d6c9672775405299297314817a9902820a81e4a27"
     end
   end
 
   def install
     bin.install "leta"
+    bin.install "leta-daemon"
   end
 
   test do
