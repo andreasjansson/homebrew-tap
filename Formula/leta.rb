@@ -1,28 +1,28 @@
 class Leta < Formula
   desc "LSP Enabled Tools for Agents - fast semantic code navigation"
   homepage "https://github.com/andreasjansson/leta"
-  version "0.1.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/andreasjansson/leta/releases/download/v0.1.0/leta-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "cab1e5250d4a4230bb12f39458f4be7fa3e7468eacd3efb1a2c8b27743d158d5"
+      url "https://github.com/andreasjansson/leta/releases/download/v0.4.0/leta-v0.4.0-x86_64-apple-darwin.tar.gz"
+      sha256 "1bcb4e5a524ade5fdc8acbe0bbc39dca0087726fc6cd9f437ca1cda68ae0a12b"
     end
     on_arm do
-      url "https://github.com/andreasjansson/leta/releases/download/v0.1.0/leta-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "2ee0cbc648b73e75d23accee22ad7823fc8281633a65d7a418fd86b752c63886"
+      url "https://github.com/andreasjansson/leta/releases/download/v0.4.0/leta-v0.4.0-aarch64-apple-darwin.tar.gz"
+      sha256 "3cf574f47be88d4163b54bbd2c3795c8f97698fbe19e4280d51e163883a9b7c9"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/andreasjansson/leta/releases/download/v0.1.0/leta-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6306fe1b670300a268c7f762a1d59aebf81cddf2bdfe1e23576281ebdfc64fa7"
+      url "https://github.com/andreasjansson/leta/releases/download/v0.4.0/leta-v0.4.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ec3f0624017d42682a5d9a9c9ff062fcafe4599c32cc33b2dd037639edfa59bc"
     end
     on_arm do
-      url "https://github.com/andreasjansson/leta/releases/download/v0.1.0/leta-v0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "37e1d4aa50cc228cacc8b2f64596c6675e8aed5a7381d3c46396a256ed49ff82"
+      url "https://github.com/andreasjansson/leta/releases/download/v0.4.0/leta-v0.4.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "02c48fc040a73d5c148ddeabd1638ea790243b7906b120ff3caa107d044adb9f"
     end
   end
 
