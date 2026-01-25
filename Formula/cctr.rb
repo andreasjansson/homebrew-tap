@@ -1,28 +1,28 @@
 class Cctr < Formula
   desc "CLI Corpus Test Runner"
   homepage "https://github.com/andreasjansson/cctr"
-  version "0.16.1"
+  version "0.16.2"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/andreasjansson/cctr/releases/download/v0.16.1/cctr-v0.16.1-x86_64-apple-darwin.tar.gz"
-      sha256 "c9412c1ddd58d9016bb26d42f126d21bb95b50c0dbba078f7a2d848744cc2dd6"
+      url "https://github.com/andreasjansson/cctr/releases/download/v0.16.2/cctr-v0.16.2-x86_64-apple-darwin.tar.gz"
+      sha256 "df1f91760e9f983ad7462d3226ec211427304f64f78c2facff5ffc4fecb556cc"
     end
     on_arm do
-      url "https://github.com/andreasjansson/cctr/releases/download/v0.16.1/cctr-v0.16.1-aarch64-apple-darwin.tar.gz"
-      sha256 "3968ac1339c6db556c6acd83edade649544266b16be7462629bec6c1cc83d96a"
+      url "https://github.com/andreasjansson/cctr/releases/download/v0.16.2/cctr-v0.16.2-aarch64-apple-darwin.tar.gz"
+      sha256 "07ce8a9cc37aa1cf77c10908f735322f7f43d16c7ebd381d96452ab97d15dafe"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/andreasjansson/cctr/releases/download/v0.16.1/cctr-v0.16.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7d0aa90c5ee02fa0305b5a6777a204e34e26c4f8fd6eeed90087ad3cb9368d2f"
+      url "https://github.com/andreasjansson/cctr/releases/download/v0.16.2/cctr-v0.16.2-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "22de2618b6c2b4d0b1d8b877a39dd09129c44c8e522ae5d5078577e81cac480a"
     end
     on_arm do
-      url "https://github.com/andreasjansson/cctr/releases/download/v0.16.1/cctr-v0.16.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "10ade0242beb3fa6b5f59164f4a0b654b315bb08105f704dc4463aab64d4d2fc"
+      url "https://github.com/andreasjansson/cctr/releases/download/v0.16.2/cctr-v0.16.2-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "46dd35015a0ad1a00c46c76be4babc5ad6331948e9fded1134a5a7cf27682dfd"
     end
   end
 
