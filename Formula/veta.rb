@@ -1,28 +1,28 @@
 class Veta < Formula
   desc "Memory and knowledge base for agents"
   homepage "https://github.com/andreasjansson/veta"
-  version "0.4.0"
+  version "0.6.1"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/andreasjansson/veta/releases/download/v0.4.0/veta-v0.4.0-x86_64-apple-darwin.tar.gz"
-      sha256 "e0a9ce5b88fdf3159267737e6f6c06a9b2298e059454fa59af5d40b308ad132f"
+      url "https://github.com/andreasjansson/veta/releases/download/v0.6.1/veta-v0.6.1-x86_64-apple-darwin.tar.gz"
+      sha256 "53869d39d244b19623fdc404eb5c5aa763c6e0e2ef500209aabef739edcedf8b"
     end
     on_arm do
-      url "https://github.com/andreasjansson/veta/releases/download/v0.4.0/veta-v0.4.0-aarch64-apple-darwin.tar.gz"
-      sha256 "91fa4f6a4075546f39f16e8becbee62c767e2cd2be14b75a9051f052daab8780"
+      url "https://github.com/andreasjansson/veta/releases/download/v0.6.1/veta-v0.6.1-aarch64-apple-darwin.tar.gz"
+      sha256 "e3731a093a384a5b841b71e2f1ebafb4188057d1846bb06703e7a7a1b3cad8e8"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/andreasjansson/veta/releases/download/v0.4.0/veta-v0.4.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "7937ef2e455053ded55734f928d181c0e54ea7859b215f5e51e993de122904e8"
+      url "https://github.com/andreasjansson/veta/releases/download/v0.6.1/veta-v0.6.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "81ecd28e9c62685e06c20e28e2128939685ae6c4cc5035b91d5fde5340d68cac"
     end
     on_arm do
-      url "https://github.com/andreasjansson/veta/releases/download/v0.4.0/veta-v0.4.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "09b0f3033a95359f43ee1604710b4b1bc8a5da6011bf62496573345cf0d2ca84"
+      url "https://github.com/andreasjansson/veta/releases/download/v0.6.1/veta-v0.6.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0dd29827cbc9ff12104f4354687ab0e198a70598da4558f822c10a8f5c89a627"
     end
   end
 
