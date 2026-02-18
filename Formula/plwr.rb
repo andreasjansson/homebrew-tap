@@ -1,28 +1,28 @@
 class Plwr < Formula
   desc "Clean CLI for Playwright browser automation with CSS selectors"
   homepage "https://github.com/andreasjansson/plwr"
-  version "0.8.0"
+  version "0.9.0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/andreasjansson/plwr/releases/download/v0.8.0/plwr-v0.8.0-x86_64-apple-darwin.tar.gz"
-      sha256 "ebedbb1190c5e917c43d4e877b0b69b4749b81a678e84e23dee938c9964beab0"
+      url "https://github.com/andreasjansson/plwr/releases/download/v0.9.0/plwr-v0.9.0-x86_64-apple-darwin.tar.gz"
+      sha256 "32fa97f35ab0552f33f13ceec6259d772e628630904f739dc9997a442dc70c72"
     end
     on_arm do
-      url "https://github.com/andreasjansson/plwr/releases/download/v0.8.0/plwr-v0.8.0-aarch64-apple-darwin.tar.gz"
-      sha256 "c79a6acc855e0e2d3516d30826bd8a724497e40e5a59136a56edca02af82a352"
+      url "https://github.com/andreasjansson/plwr/releases/download/v0.9.0/plwr-v0.9.0-aarch64-apple-darwin.tar.gz"
+      sha256 "c2974cb381999c9149ef6d3e75e653890cacc0202e02eccab42cbb180cc1f9cf"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/andreasjansson/plwr/releases/download/v0.8.0/plwr-v0.8.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c4011c3a8d0eec66184b7b823a8d6415bf58bb7f5be7283216bd78964ca71d58"
+      url "https://github.com/andreasjansson/plwr/releases/download/v0.9.0/plwr-v0.9.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "22abd82c452653581f2a1cefc35257a2d33bf03e5564840c7c1d1e3f6f992794"
     end
     on_arm do
-      url "https://github.com/andreasjansson/plwr/releases/download/v0.8.0/plwr-v0.8.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "158c001d5ca1eee91ff53b65553f82be535ebdf5e4e02f397f24da97d074a86f"
+      url "https://github.com/andreasjansson/plwr/releases/download/v0.9.0/plwr-v0.9.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "c0cfdc5d45678e480d5b3d8da382184a8a7cd2fe9cdbcb798f4be31740db0241"
     end
   end
 
